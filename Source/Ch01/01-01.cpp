@@ -18,13 +18,6 @@ int main( )
         cout << "Enjoy the book.\n";
 
     return 0;
-<<<<<<< HEAD
+
 }
 
-// commented by Kyu
-// 3
-=======
-}
-  // 2
-// commented by Kyu
->>>>>>> 825c529f589cdef62bd63cf3e721ad72552cef90
