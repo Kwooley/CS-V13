@@ -1,26 +1,24 @@
+// This program converts seconds to minutes and seconds.
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
-	//* Declare Section
-	const double TAX = 0.0675;
-	const double TIP = 0.2;
-	double taxAmount,
-	    	tipAmount,
-	    	totalBill;
-	
-	double mealCharge = 88.67;
+	// The total seconds is 125.
+	int totalSeconds = 125;
 
-	//? Calcualation total Bill
-	taxAmount = mealCharge * TAX;
-	tipAmount = (mealCharge + taxAmount) * TIP;
+	// Variables for minutes and seconds
+	int minutes, seconds;
 
-	totalBill = mealCharge + taxAmount + tipAmount;
+	// Get the number of minutes.
+	minutes = totalSeconds / 60;
 
-	//? Display the results
-	cout << "Tax Amount " << taxAmount << endl;
-	cout << "Tip amount " << tipAmount << endl;
-	cout << "Total Bill is " << totalBill << endl;
+	// Get the remaining seconds.
+	seconds = totalSeconds % 60;
+
+	// Display the results.
+	cout << totalSeconds << " is equivalent to:\n";
+	cout << "Minutes: " << minutes << endl;
+	cout << "Seconds: " << seconds << endl;
+	return 0;
 }
