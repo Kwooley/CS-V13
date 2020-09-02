@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"iomanip": "cpp",
+			"cassert": "cpp",
+			"ostream": "cpp",
+			"iostream": "cpp"
+		}
+	}
 }

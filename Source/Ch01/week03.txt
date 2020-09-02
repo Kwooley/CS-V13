@@ -1,0 +1,28 @@
+
+Sep. 02 2020.
+
+• Today's plan
+    √ Assignment Statement
+    Operators
+    - based on the number of operands
+        Unary : 1 operand
+        ++, --, -
+        Binary : 2 operands
+        Ternary : 3 operands
+    √ String
+    √ Constants
+    √ Type Conversion
+        - Implicit
+            int i=1;
+            float f;
+            f = i * 10.0;
+
+        - Explicit 
+            int i;
+            i = static_cast<int>(3.7); 
+            i = 3.7; 
+
+    1.3 cout and cin objects
+
+    Assigment 1-1, 1-2
+    Quiz (10 questions, multiple choice)
