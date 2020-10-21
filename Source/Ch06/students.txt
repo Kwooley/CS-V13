@@ -1,0 +1,10 @@
+James   100	90	
+Smith   95  80
+Mary    100 90
+Maxim   90  95
+Jordan  95  100
+Allison 100 90
+Lynn    90  95
+Bill    95  90
+Carson  80  80
+Jennette 95 90
