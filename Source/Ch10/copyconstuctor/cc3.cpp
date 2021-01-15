@@ -75,6 +75,8 @@ int main()
     // Sicne the default copy constructor performs shallow-copy,
     // When the mc is destroyed, it is the same as deleting c1.a
 
+    // c1.a has been deleted at the end of function printMC.
+    cout << "Error : Segmentation Fault\n";
     cout << "class c1" << endl;
     c1.printMyclass();
 }

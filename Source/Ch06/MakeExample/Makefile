@@ -8,4 +8,4 @@ DEPS = rectangle.hpp
 buildall: exercise6-2.o rectangle.o 
 	$(CC) -o exercise6-2 exercise6-2.o rectangle.o 
 clean:
-	/usr/bin/rm -rf *.o *.exe
+	bin/rm -rf *.o a.out 

@@ -12,7 +12,6 @@ public:
     Myclass(int i, string s) : id(i), name(s){};
     Myclass &operator=(Myclass &rhs);
     void printMyclass() const;
-    ~Myclass();
 };
 Myclass &Myclass::operator=(Myclass &rhs)
 {
@@ -27,6 +26,7 @@ int main()
     c1.printMyclass();
     Myclass c2;
     c2 = c1;
+    cout << "The class c2: \n";
     c2.printMyclass();
 }
 

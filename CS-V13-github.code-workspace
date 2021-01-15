@@ -9,7 +9,9 @@
 			"iomanip": "cpp",
 			"cassert": "cpp",
 			"ostream": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"cstdlib": "cpp",
+			"iosfwd": "cpp"
 		}
 	}
 }
